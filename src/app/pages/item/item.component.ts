@@ -33,7 +33,7 @@ export class ItemComponent implements OnInit {
         .subscribe( (prod: ProductFull) =>{
           this.prodFull = prod;
           
-          console.log(this.id);
+          //console.log(this.id);
           //console.log(prod);
         });
 
